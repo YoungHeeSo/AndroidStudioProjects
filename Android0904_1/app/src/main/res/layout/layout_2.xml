@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:backgroundTint="#FF5C5C"
+        android:visibility="visible"
+        android:layout_gravity="center_horizontal"
+        android:text="button1"
+        android:padding="20dp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_margin="10dp"
+        android:backgroundTint="#D45CFF"
+        android:text="button2"/>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a Test"
+        android:background="#1C0BB9"
+        android:textColor="#6FE41B"
+        android:textSize="20pt"
+        android:textStyle="italic"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="여기에 입력 해줘"
+        android:inputType="text"/>
+
+
+</LinearLayout>
