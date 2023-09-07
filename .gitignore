@@ -45,6 +45,10 @@ bin/
 gen/
 out/
 
+#idea files
+# git rm —cached -r .idea/
+.idea/
+
 # Gradle files
 .gradle
 .gradle/
