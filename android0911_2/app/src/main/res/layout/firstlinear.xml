@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To"
+        android:id="@+id/to"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:layout_weight="1"
+        android:id="@+id/subject"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp"
+        android:padding="5px"
+        android:hint="Message"
+        android:gravity="top"
+        android:textSize="50px"
+        android:id="@+id/message"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="보내기"
+        android:id="@+id/send"/>
+</LinearLayout>
