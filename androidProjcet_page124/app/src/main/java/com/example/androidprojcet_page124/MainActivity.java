@@ -21,14 +21,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view){
         String str = cText.getText().toString();
+        int count = Integer.parseInt(str);
         int id = view.getId();
 
         if(id==R.id.increase){
-            int count = Integer.parseInt(str)+1;
+            count++;
             cText.setText(count+"");
         } else if(id==R.id.reduction){
-            int count = Integer.parseInt(str)-1;
+            if(count<1) return;
+            count--;
             cText.setText(count+"");
+
         }
 
 
