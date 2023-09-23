@@ -13,11 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dice Roller"
-        android:textSize="100px"/>
+        android:textSize="200px"/>
 
     <ImageView
         android:id="@+id/roll"
-        android:layout_width="wrap_content"
+        android:layout_width="300px"
         android:layout_height="wrap_content"
         android:src="@drawable/one"/>
 
@@ -26,6 +26,7 @@
         android:onClick="onClick"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="ROLL"
         android:textSize="50px"/>
 
