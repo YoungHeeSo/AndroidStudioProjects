@@ -20,9 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         usrinfo = (TextView) findViewById(R.id.userinfo);
 
         Intent in = getIntent();
-        usrinfo.setText(""+in.getIntExtra("usrCd",0)+"님"+"("+in.getIntExtra("usrNm",0)+")"+"\n"+"반갑습니다");
-
+        usrinfo.setText(""+in.getStringExtra("usrCd")+"님"+"("+in.getStringExtra("usrNm")+")"+"\n"+"반갑습니다");
     }
-
 
 }
